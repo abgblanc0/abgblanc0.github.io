@@ -1,0 +1,35 @@
+body{
+    background-color: antiquewhite;
+}
+header{
+    margin: auto;
+    width: 95vw;
+    height: 10vw;
+    background-color: #373737;
+    border-radius: 10px;
+}
+
+#body{
+    margin: auto;
+    margin-top: 10px;
+    width: 95vw;
+    height: 90vw;
+    background-color: #765b8f;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.card{
+    background-color: #dfda91;
+    border-radius: 10px;
+    margin: auto;
+    width: 20vw;
+    height: 20vw;
+    transition: 0.3s;
+}
+
+.card:hover{
+    background-color: #a4ee73;
+}
+
